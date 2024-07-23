@@ -21,6 +21,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  /* padding: 0 2em; */
   font-weight: 400;
   height: 100vh;
 }
@@ -34,7 +35,9 @@ body {
   background-color: #450d5a;
   font-family: "Aladin";
   color: #f6d710;
+  /* max-width: 1350px; */
   display: grid;
+  /* height: 90vh; */
   max-height: 800px;
   overflow: hidden;
   grid-template-columns: 15% 20% 35% 30%;
@@ -78,9 +81,15 @@ body {
 }
 @media screen and (max-width: 1260px) {
   .blog-menu {
-    font-size: 1.6vw;
+    font-size: 20px;
   }
 }
+
+/* @media screen and (max-width: 1260px) {
+  .blog-menu {
+    font-size: 1.6vw;
+  }
+} */
 .blog-menu svg {
   width: 22px;
   margin-left: 4px;
@@ -165,6 +174,9 @@ body {
 .blog-article {
   padding: 0 20px;
 }
+.blog-header p{
+  font-size: 20px;
+}
 .blog-article img {
   height: 260px;
    width: 100%;
@@ -205,10 +217,11 @@ body {
   border-bottom: 1px solid #94918f;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  font-size: 20px;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
   .small-title {
-    font-size: 14px;
+    font-size: 15px;
     position: absolute;
     top: 10px;
     right: 24px;
