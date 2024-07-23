@@ -21,7 +21,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 0 2em;
+  /* padding: 0 2em; */
   font-weight: 400;
   height: 100vh;
 }
@@ -35,9 +35,9 @@ body {
   background-color: #450d5a;
   font-family: "Aladin";
   color: #f6d710;
-  max-width: 1350px;
+  /* max-width: 1350px; */
   display: grid;
-  height: 90vh;
+  /* height: 90vh; */
   max-height: 800px;
   overflow: hidden;
   grid-template-columns: 15% 20% 35% 30%;
@@ -48,14 +48,14 @@ body {
 }
 @media screen and (max-width: 1030px) {
   .blog {
-    grid-template-columns: 10% 25% 40% 25%;
+    grid-template-columns: 10% 25% 35% 30%;
   }
 }
 @media screen and (max-width: 768px) {
   .blog {
     grid-template-columns: 25% 75%;
     width: 100%;
-    max-width: none;
+    /* max-width: none; */
   }
 }
 @media screen and (max-width: 560px) {
